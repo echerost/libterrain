@@ -173,7 +173,7 @@ class SingleTerrainInterface(BaseInterface):
             'srid': self.srid,
             'lidar_table': self.lidar_table,
             'buff': self.buff,
-            'latlong': true
+            'latlong': True
         }
         profile = self._profile_osm(params, self.conn)
         return profile
